@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MUSIC WEB</title>
+<style>
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4);
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #000; /* changed from #fff to black */
+    margin-bottom: 40px;
+  }
+  
+  .song-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .song {
+    display: flex;
+    align-items: center;
+    background-color: #ffffffcc;
+    border-radius: 15px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .song img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .song-info {
+    margin-left: 15px;
+  }
+  
+  .song-info .title {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .song-info .artist {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+  }
+</style>
+</head>
+<body>
+<h2>Cartoon Songs</h2>
+ <div class="song-list">
+<div class="song">
+<span>1. Song Title: Zindagi Savoor Do</span>
+<img src="https://th.bing.com/th?&id=OVP._RoEg-UUGbxF_US5eBwvLQHgFo&w=168&h=95&c=7&pid=1.7&rs=1">
+<a href="https://youtu.be/uEtNdE13fmo" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>2. Song Title:Chhota Bheem</span>
+<img src="https://th.bing.com/th?&id=OVP.KCOoawf2YICqq1W1OF9DWAHgFo&w=424&h=238&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?q=chhota+bheem+song&&mid=261EDDE3587E58D61C32261EDDE3587E58D61C32&FORM=VCGVRP" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>3. Song Title: Nani Teri Morni ko</span>
+<img src="https://th.bing.com/th/id/OVP.Ot01c3bQYkitxBXwLMbiOwIAEg?w=424&h=238&c=7&rs=1&qlt=90&o=6&pid=1.7">
+<a href="https://www.bing.com/ck/a?!&&p=3cb4ef42fe3085066d1fb5b7ec2f0f8096d7ba3f7a11bdad12856fcf4ca67e89JmltdHM9MTc0NTE5MzYwMA&ptn=3&ver=2&hsh=4&fclid=28f43514-a44d-63f4-2a95-2799a5d662b8&psq=nani+teri+morni+ko+mor+le+gaye&u=a1aHR0cHM6Ly93d3cuZGFpbHltb3Rpb24uY29tL3ZpZGVvL3g4ZzFsNjU&ntb=1" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>4. Song Title:AA ha Tamatar</span>
+<img src="https://th.bing.com/th/id/OVP.2EiOKht2cSSrwV--p6FL7gEsDh?w=424&h=238&c=7&rs=1&qlt=90&o=6&pid=1.7">
+<a href="https://www.bing.com/ck/a?!&&p=46cdf9c0dc5b668a915fcfb717d07e970676782090c3dc06966475ede4fa204cJmltdHM9MTc0NTE5MzYwMA&ptn=3&ver=2&hsh=4&fclid=28f43514-a44d-63f4-2a95-2799a5d662b8&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9YWFoYSt0YW1hdGFyK2JhZGErbWF6ZWRhciYmbWlkPUE1RTEwMzhDQjg5NUYwQkNGMDQ4QTVFMTAzOENCODk1RjBCQ0YwNDgmRk9STT1WQU1HWkM&ntb=1" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>5. Song Title:Ninja Hattori</span>
+<img src="https://th.bing.com/th?&id=OVP.lU7nCN3gBJ9gHwVcOL4WLAEsDh&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?&q=ninja+hattori+hindi+song&&mid=3EAB2FED173F8124D03C3EAB2FED173F8124D03C&&FORM=VRDGAR" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>6. Song Title: Pokemon</span>
+<img src="https://tse4.mm.bing.net/th?q=Pokemon+Hindi+Theme+Song+Lyrics&pid=2.5&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=3&w=120&h=60&c=7">
+<a href="https://youtu.be/0Ur6PJhqJ9A" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>7. Song Title: Tom & Jerry</span>
+<img src="https://th.bing.com/th/id/OVP.pD19r9uQ7T3QY07JY11j6QHgFo?w=424&h=238&c=7&rs=1&qlt=90&pid=2.1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?q=tom+%26+jerry&&mid=9ED24D47B4992B3ED5B69ED24D47B4992B3ED5B6&FORM=VCGVRP" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>8. Song Title:Lakdi ki kathi</span>
+<img src="https://th.bing.com/th?&id=OVP.8edzgDqKJ5NQI5pmHGEYTwHgFo&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/ck/a?!&&p=a6e85e00b084610541e5f0fd0e59ba3d470dfcee71b29405557718213c64897bJmltdHM9MTc0NTE5MzYwMA&ptn=3&ver=2&hsh=4&fclid=28f43514-a44d-63f4-2a95-2799a5d662b8&psq=Hindi+cartoons+songs+&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj0zYkxmemdaLXdPOA&ntb=1" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>9. Song Title: Akkad bakad</span>
+<img src="https://th.bing.com/th/id/OVP.8MhxA58vykoqFjVBmcMvdwHgFo?w=243&h=136&c=7&rs=1&qlt=90&o=5&pid=2.1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?&q=Hindi+cartoons+songs+&&mid=6E698A78662DA6286A426E698A78662DA6286A42&&FORM=VRDGAR" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>10. Song Title: Shin chan</span>
+<img src="https://th.bing.com/th?&id=OVP._2liiaFYXnpWBGCBRbXWaAEsDh&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?&q=shinchan+song+in+hindi&&mid=FFE0A0724D841B31A392FFE0A0724D841B31A392&&FORM=VRDGAR" target="_blank">Listen</a>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MUSIC WEB</title>
+<style>
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4);
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #000; /* changed from #fff to black */
+    margin-bottom: 40px;
+  }
+  
+  .song-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .song {
+    display: flex;
+    align-items: center;
+    background-color: #ffffffcc;
+    border-radius: 15px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .song img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .song-info {
+    margin-left: 15px;
+  }
+  
+  .song-info .title {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .song-info .artist {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+  }
+</style>
+</head>
+<body>
+<h2>Old 60's Bollywood Songs</h2>
+ <div class="song-list">
+<div class="song">
+<span>1. Song Title:Tere mere Sapne</span>
+<img src="https://th.bing.com/th?&id=OVP.QbSSIhkbirERMzBmnep0vAHgFo&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?&q=Tere+mere+sapne+song&&mid=B455DC745AFFAB587965B455DC745AFFAB587965&&FORM=VRDGAR" target="_blank">Listen</a>
+</div>
+ <div class="song-list">
+<div class="song">
+<span>2. Song Title:Yeh raatein Tere mausam</span>
+<img src="https://th.bing.com/th/id/OVP.xR4JK5vEBI5GLM04IrzH8gHgFo?w=243&h=136&c=7&rs=1&qlt=90&o=5&pid=2.1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?&q=yeh+raaten+yeh+mausam&&mid=9C6D7721897CDBE6A0FB9C6D7721897CDBE6A0FB&&FORM=VRDGAR" target="_blank">Listen</a>
+</div>
+ <div class="song-list">
+<div class="song">
+<span>3. Song Title:pyar hua ikrar hua</span>
+<img src="https://th.bing.com/th?&id=OVP.ClKLOOLWHx19YCwaHi2ueQHgFo&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?&q=pyar+hua+ikrar+hua&&mid=98FA7A11914BCD1468F098FA7A11914BCD1468F0&&FORM=VRDGAR" target="_blank">Listen</a>
+</div>
+ <div class="song-list">
+<div class="song">
+<span>4. Song Title:mera joota hai japani</span>
+<img src="https://th.bing.com/th/id/OVP.PjdTNfCiewkxL_619AVscgHgFo?w=424&h=238&c=7&rs=1&qlt=90&pid=2.1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?q=mera+joota+hai+japani+song&&mid=F3741C3B50374831270FF3741C3B50374831270F&FORM=VCGVRP" target="_blank">Listen</a>
+</div>
+ <div class="song-list">
+<div class="song">
+<span>5. Song Title:aayega aanewala</span>
+<img src="https://th.bing.com/th?&id=OVP.DZLs8qUp4_HBb7NiWVvmMwHgFo&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/ck/a?!&&p=fdde2c08355831b66bd0eb75ca6873e8e19b883252d349be0a9e56ae0d1c2f14JmltdHM9MTc0NTE5MzYwMA&ptn=3&ver=2&hsh=4&fclid=28f43514-a44d-63f4-2a95-2799a5d662b8&psq=aayega+aanewala&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1lMjRTNmQ0ZTNRQQ&ntb=1" target="_blank">Listen</a>
+</div>
+ <div class="song-list">
+<div class="song">
+<span>6. Song Title:Gulabi aankhen jo teri dekhi</span>
+<img src="https://th.bing.com/th/id/OVP.hlBBBrGPzx32ujaVp1HcLAHgFo?w=243&h=136&c=7&rs=1&qlt=90&o=5&pid=2.1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?&q=Gulabi+aakhen+jo+teri+dekhi+(train)&&mid=8B1E693226B3A8A8D1E58B1E693226B3A8A8D1E5&&FORM=VRDGAR" target="_blank">Listen</a>
+</div>
+ <div class="song-list">
+<div class="song">
+<span>7. Song Title:Badan pe sitare</span>
+<img src="https://th.bing.com/th/id/OVP.7vyvSeLIbOq_AXzWDw29zQHgFo?w=243&h=136&c=7&rs=1&qlt=90&o=5&pid=2.1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?&q=badan+pe+sitare&&mid=9A94187077DCFF1508139A94187077DCFF150813&&FORM=VRDGAR" target="_blank">Listen</a>
+</div>
+ <div class="song-list">
+<div class="song">
+<span>8. Song Title:ae mere zohra jabeen</span>
+<img src="https://th.bing.com/th?&id=OVP.27sIe8D0Td-J1S4vJdibjwHgFo&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?&q=ae+mere+zohra+jabeen&&mid=12EFEFBBFCF844E4467712EFEFBBFCF844E44677&&FORM=VRDGAR"_blank">Listen</a>
+</div>
+ <div class="song-list">
+<div class="song">
+<span>9. Song Title:Pyar diwana hota hai</span>
+<img src="https://th.bing.com/th?&id=OVP.dj5e9uG22RReDUJPP1mztwHgFo&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?&q=pyar+diwana+hota+hai&&mid=685D579E1ACCD0BC767F685D579E1ACCD0BC767F&&FORM=VRDGAR"_blank">Listen</a>
+</div>
+ <div class="song-list">
+<div class="song">
+<span>10. Song Title:Ajeeb Dastan hai Yeh</span>
+<img src="https://th.bing.com/th?&id=OVP.JU6iR5Z9L1kXTubhKqCBxQHgFo&w=400&h=225&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?q=ajeeb+dastan+hai+yeh&&mid=CBA703EB563BFA90AF06CBA703EB563BFA90AF06&FORM=VCGVRP" target="_blank">Listen</a>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MUSIC WEB</title>
+<style>
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4);
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #000; /* changed from #fff to black */
+    margin-bottom: 40px;
+  }
+  
+  .song-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .song {
+    display: flex;
+    align-items: center;
+    background-color: #ffffffcc;
+    border-radius: 15px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .song img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .song-info {
+    margin-left: 15px;
+  }
+  
+  .song-info .title {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .song-info .artist {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+  }
+</style>
+</head>
+<body>
+<h2>Old 70's Bollywood songs</h2>
+ <div class="song-list">
+<div class="song">
+<span>1. Song Title: Aadmi Musafir hai</span>
+<img src="https://th.bing.com/th/id/OVP.Zk9JGExOtIS7nZioon8jhAHgFo?w=424&h=238&c=7&rs=1&qlt=90&pid=2.1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?q=aadmi+musafir+hai&&mid=522B23E74A60657558CA522B23E74A60657558CA&FORM=VCGVRP" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>2. Song Title: Aaj madhosh hua jaye re</span>
+<img src="https://th.bing.com/th?&id=OVP.rh8aDe-jSpbTDji8HColowHgFo&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?&q=aaj+madhosh+hua+jaye+re&&mid=2F06462BABFBFE88EAD22F06462BABFBFE88EAD2&&FORM=VRDGAR" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>3. Song Title: Aaj mausam bada beimaan hai</span>
+<img src="https://th.bing.com/th?&id=OVP.iwkdTOllHhZN1VT1tep-YgHgFo&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/ck/a?!&&p=b87d386cc8b40e2770970519f6e2d10e1a4e8373b1bfaf2585bd4f5c22a24c1cJmltdHM9MTc0NTE5MzYwMA&ptn=3&ver=2&hsh=4&fclid=28f43514-a44d-63f4-2a95-2799a5d662b8&psq=aaj+mausam+bada+beimaan+hai&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1hU0pfamNFUE91MA&ntb=1" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>4. Song Title:Aaj na Chodenge </span>
+<img src="https://th.bing.com/th?&id=OVP.pVTdG8UCnhg7L-kMtQXoXgHgFo&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/ck/a?!&&p=5bf67d03b235a8d95ad05a5fb8ca031e75d061c22a882ffd81c9374e5649a422JmltdHM9MTc0NTE5MzYwMA&ptn=3&ver=2&hsh=4&fclid=28f43514-a44d-63f4-2a95-2799a5d662b8&psq=aaj+na+codenge&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1WR1FSTVVxeWEzcw&ntb=1" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>5. Song Title:Aap ke kamre mai koi rehta hai</span>
+<img src="https://th.bing.com/th?&id=OVP.Ig4AiEHTXvCUYueQnS4A5wHgFo&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?&q=Aap+ke+kamre+mai+koi+rehta+hai&&mid=3FC3A4249E07D15A1CF13FC3A4249E07D15A1CF1&&FORM=VRDGAR" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>6. Song Title: Aapki Mehki Huyi Zulf Ko</span>
+<img src="https://th.bing.com/th?&id=OVP.wMCFNnNqwD0w5T825yHotwEsDh&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?&q=Aapki+Mehki+Huyi+Zulf+Ko&&mid=4723DA8054A77A2123514723DA8054A77A212351&&FORM=VRDGAR" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>7. Song Title: Aap Yahan Aaye Kisliye</span>
+<img src="https://th.bing.com/th?&id=OVP.Ppa6C2Jw_YAACfWVkmVnLAEsDh&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/ck/a?!&&p=ce8c757ef08c7ecc763e7a2d79c18abb255fcb52c49085c09466b1a9bc0989d1JmltdHM9MTc0NTE5MzYwMA&ptn=3&ver=2&hsh=4&fclid=28f43514-a44d-63f4-2a95-2799a5d662b8&psq=Aap+Yahan+Aaye+Kisliye&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1qVF9DSTVoUWd6UQ&ntb=1" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>8. Song Title: Bhor Bhaye Panghat Pe</span>
+<img src="https://th.bing.com/th?&id=OVP.-G3dbl5HTnS4KNK2tJ77XwHgFo&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/videos/riverview/relatedvideo?q=Bhor+Bhaye+Panghat+Pe+song&&mid=18088DD2CBB185E99AB718088DD2CBB185E99AB7&FORM=VCGVRP" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>9. Song Title: Hai Agar Dushman</span>
+<img src="https://th.bing.com/th?&id=OVP.9dc6nEacz82Ud25Vq8xiEQHgFo&w=272&h=152&c=7&pid=2.1&rs=1">
+<a href="https://www.bing.com/ck/a?!&&p=1a9045deb2e26506ce80afe5739aae4cb798028bc7332aa1ee1169a89a4f7c13JmltdHM9MTc0NTE5MzYwMA&ptn=3&ver=2&hsh=4&fclid=28f43514-a44d-63f4-2a95-2799a5d662b8&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9aGFpK2FnYXIrZHVzaG1hbitvcmlnaW5hbCtzb25nJm1pZD0zQzNFQzhEMkE4RjlBNjZFMkMxRjNDM0VDOEQyQThGOUE2NkUyQzFGJkZPUk09VklSRQ&ntb=1" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>10. Song Title:Jhoot Bole Kauva Kate</span>
+<img src="https://tse1.mm.bing.net/th?&id=OVP.QGXTdtmAWrVSIiE9jSoowQHgFo&w=528&h=298&c=7&pid=1.7&rs=1">
+<a href="https://www.bing.com/ck/a?!&&p=0a7beacaec3fec6c8a017480f47628455968c3e7e1c1deb0791d5e8204df5d29JmltdHM9MTc0NTE5MzYwMA&ptn=3&ver=2&hsh=4&fclid=28f43514-a44d-63f4-2a95-2799a5d662b8&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9Smhvb3QrQm9sZStLYXV2YStLYXRlJm1pZD03MDVDOTY1NTdDNUJGMjk3NTkxNDcwNUM5NjU1N0M1QkYyOTc1OTE0JkZPUk09VklSRQ&ntb=1" target="_blank">Listen</a>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MUSIC WEB</title>
+<style>
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4);
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #000; /* changed from #fff to black */
+    margin-bottom: 40px;
+  }
+  
+  .song-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .song {
+    display: flex;
+    align-items: center;
+    background-color: #ffffffcc;
+    border-radius: 15px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .song img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .song-info {
+    margin-left: 15px;
+  }
+  
+  .song-info .title {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .song-info .artist {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+  }
+</style>
+</head>
+<body>
+<h2>Cartoon Songs</h2>
+ <div class="song-list">
+<div class="song">
+<span>1. Song Title: Ae Mere Humsafar</span>
+<img src="https://th.bing.com/th/id/OVP.WuB3n7F-wUIHSq4PLAWY1AHgFo?w=424&h=238&c=7&rs=1&qlt=90&o=6&pid=1.7">
+<a href="https://www.bing.com/ck/a?!&&p=cc939bddd2258ddea4782c8b69295ffc479297328576a48b7298e859cf191b13JmltdHM9MTc0NTE5MzYwMA&ptn=3&ver=2&hsh=4&fclid=28f43514-a44d-63f4-2a95-2799a5d662b8&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9QWUrTWVyZStIdW1zYWZhciYmbWlkPUU3NDAwQjYyN0Q4Q0I0Q0VEMjkzRTc0MDBCNjI3RDhDQjRDRUQyOTMmRk9STT1WQU1HWkM&ntb=1" target="_blank">Listen</a>
+</div>
+<div class="song">
+<span>2. Song Title: Mere Rang Mein Rangane Wali</span>
+<img src="https://th.bing.com/th/id/OVP.AR_mxsGzTvRowGL7ghzKhwHgFo?w=424&h=238&c=7&rs=1&qlt=90&o=6&pid=1.7">
+<a href="https://www.bing.com/ck/a?!&&p=186c90940412c11258ca7c14776611859d5691be1a541800f85b05a634a8ef16JmltdHM9MTc0NTE5MzYwMA&ptn=3&ver=2&hsh=4&fclid=28f43514-a44d-63f4-2a95-2799a5d662b8&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9TWVyZStSYW5nK01laW4rUmFuZ2FuZStXYWxpJiZtaWQ9M0JDMDk4OTdFNkJFRkRCNDZEMDMzQkMwOTg5N0U2QkVGREI0NkQwMyZGT1JNPVZBTUdaQw&ntb=1" target="_blank">Listen</a>
+</div>
+
+<div class="song">
+<span>3. Song Title:Aaap jaisa koi</span>
+<img src="https://tse1.mm.bing.net/th?&id=OVP.XgYnIGEjJXL7t4OM36H8EQHgFo&w=400&h=224&c=7&pid=1.7&rs=1">
+<a href="https://www.bing.com/ck/a?!&&p=b38434c5e2ffe07927d02150fcc789c64b0d40b52ce6c4c02a92777c6739af1dJmltdHM9MTc0NTE5MzYwMA&ptn=3&ver=2&hsh=4&fclid=28f43514-a44d-63f4-2a95-2799a5d662b8&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9QWFwK0phaXNhK0tvaSZtaWQ9NThFMUY3OEMyM0QzNEQxNUM5QTA1OEUxRjc4QzIzRDM0RDE1QzlBMCZGT1JNPVZJUkU&ntb=1" target="_blank">Listen</a>
+</div>
+
+<div class="song">
+<span>4. Song Title: Sheesha Ho Ya Dil Ho</span>
+<img src="https://tse1.mm.bing.net/th?&id=OVP.5peHdbBn5bXGZZ4AeztQWwHgFo&w=400&h=224&c=7&pid=1.7&rs=1">
+<a href="https://www.bing.com/ck/a?!&&p=5b4e9f8460c9f535190767cf64f7be7c95fcabe840020afb37c9213a9a81c568JmltdHM9MTc0NTE5MzYwMA&ptn=3&ver=2&hsh=4&fclid=28f43514-a44d-63f4-2a95-2799a5d662b8&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9U2hlZXNoYStIbytZYStEaWwrSG8mbWlkPTM3NDA3NEEzMDFBNTg4NDY0QThEMzc0MDc0QTMwMUE1ODg0NjRBOEQmRk9STT1WSVJF&ntb=1" target="_blank">Listen</a>
+</div>
+
+<div class="song">
+<span>5. Song Title: Chehra Hai Ya”</span>
+<img src="https://th.bing.com/th/id/OVP.6Qf_YH3_wQ-5cky30l8ATgHgFo?w=530&h=298&c=7&rs=1&qlt=90&o=6&pid=1.7">
+<a href="https://www.bing.com/ck/a?!&&p=c2058e59adb21470399f9b167bbab06fe81912b450f900169e83bd29bbc9f15aJmltdHM9MTc0NTE5MzYwMA&ptn=3&ver=2&hsh=4&fclid=28f43514-a44d-63f4-2a95-2799a5d662b8&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9Q2hlaHJhK0hhaStZYSVlMiU4MCU5ZCZtaWQ9MDQzODYwQjg4RjcwMzNCQzMwMzkwNDM4NjBCODhGNzAzM0JDMzAzOSZGT1JNPVZJUkU&ntb=1" target="_blank">Listen</a>
+</div>
